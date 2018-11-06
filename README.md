@@ -21,6 +21,12 @@ The system will leverage PoseNet by Tensorflow to analyze pose data that is capt
  1. Webcam
  2. Arduino 
  3. Raspberry Pi
- 
+ 4. servo
+ 5. rubber hand
+ 6. A Projector and screen(maybe) to display interaction on the phone
 
 ### Interaction Plan
+ Plan A: User will interact with the webcam for pose input and the mechanical arm will be the form of output that interact with the phone.
+ 
+ Plan B: User will interact with different types of sensor(e.g hearrate sensor, accelerator), data will be transformed to mechanical arm for interactinon with the phone. 
+ 
