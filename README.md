@@ -2,12 +2,25 @@
 
 
 
-## Scroll Master--Carmen
+## Scroll Master
 
 ### Team: Hanyu Zhang, Yiyuan Feng
 
-In this final project, we designed a facebook feed scrolling helper--Carmen. Carmen is consisted of body gesture recognization technology and a mechanical arm.
-Users can control the arm to scroll up, scroll down by looking up/down, left/put down their arm. 
-What we want to express in this project is the relationship between people and phone or technology. When you simply use your finger to go through
-the facebook feed, it's not you are controlling the device but the device is controlling you. You just can't stop and have to receive the information from social media statically.
-While you are using Carmen, your big body gesture is remind you of the real world and tell you that you should be the man to controll the device in you hand. 
+### Project Idea
+
+For final project, we are building a social media feed scrolling helper. With this helper system, users can scroll social media feeds using body gestures.
+
+The goal of this project is to explore the relationship between human beings and technology, especially mobile devices. People today spend too much time on their phones. Researche shows that the average person spend over 4 hours on his/her phone each day. Thus, we want to create an interactive device that let users view their phones while getting some exercises done.
+
+The system will leverage PoseNet by Tensorflow to analyze pose data that is captured by a webcam. The pose data is then used to control a mechanical arm, which interact with the phone accordingly. For example, if user put his/her arms up, the mechanical arm will scroll up the social media feed.
+
+### Rough Form
+
+
+### Expected Parts
+ 1. Webcam
+ 2. Arduino 
+ 3. Raspberry Pi
+ 
+
+### Interaction Plan
