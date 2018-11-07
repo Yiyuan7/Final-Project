@@ -28,5 +28,5 @@ The system will leverage PoseNet by Tensorflow to analyze pose data that is capt
 ### Interaction Plan
  Plan A: User will interact with the webcam for pose input and the mechanical arm will be the form of output that interact with the phone.
  
- Plan B: User will interact with different types of sensor(e.g hearrate sensor, accelerator), data will be transformed to mechanical arm for interactinon with the phone. 
+ Plan B: User will interact with different types of sensor(e.g hearrate sensor, accelerometer), data will be transformed to mechanical arm for interactinon with the phone. 
  
