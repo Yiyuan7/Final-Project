@@ -15,6 +15,8 @@ The goal of this project is to explore the relationship between human beings and
 The system will leverage PoseNet by Tensorflow to analyze pose data that is captured by a webcam. The pose data is then used to control a mechanical arm, which interact with the phone accordingly. For example, if user put his/her arms up, the mechanical arm will scroll up the social media feed.
 
 ### Rough Form
+![paper prototype](https://github.com/Yiyuan7/Final-Project/blob/master/Presentation%20Sources/IMG_6602.JPG)
+
 
 
 ### Expected Parts
