@@ -34,3 +34,6 @@ The system will leverage PoseNet by Tensorflow to analyze pose data that is capt
  
 ### Progress (11/8/2018)
  We have succesfully prototype gesture recognition using Posenet and webcam. We use nose and right wrist as two keypoints and calculate the relative position difference between current position and previous position to ouput "scroll up", "stay", and "scroll down". 
+ 
+### Verplank Diagram 
+![Verplank](https://github.com/Yiyuan7/Final-Project/blob/master/verplank.JPG)
