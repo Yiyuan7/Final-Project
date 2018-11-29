@@ -33,7 +33,15 @@ The system will leverage PoseNet by Tensorflow to analyze pose data that is capt
  Plan B: User will interact with different types of sensor(e.g hearrate sensor, accelerometer), data will be transformed to mechanical arm for interactinon with the phone. 
  
 ### Progress (11/8/2018)
+
+## Plan A - Failure
  We have succesfully prototype gesture recognition using Posenet and webcam. We use nose and right wrist as two keypoints and calculate the relative position difference between current position and previous position to ouput "scroll up", "stay", and "scroll down". 
+
+## Plan B 
  
 ### Verplank Diagram 
 ![Verplank](https://github.com/Yiyuan7/Final-Project/blob/master/verplank.JPG)
+
+
+
+
