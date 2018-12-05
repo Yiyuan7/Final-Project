@@ -70,14 +70,14 @@ We made our own stylus by using a cotton swap, aluminum foil paper, and water. W
 Our major challenge is to figure out the sequence of movements. We start with using servo.sweep and later figured out the flow of movement for two servos to work together. 
  
  Initial design of servo
- 
- <img align="left" height = "400" src="https://github.com/Yiyuan7/Final-Project/blob/master/initial.jpg">
- 
+ <p align="left">
+ <img height = "400" src="https://github.com/Yiyuan7/Final-Project/blob/master/initial.jpg">
+ </p>
  
  Final design of servo
- 
- <img align="left" width = "600" src="https://github.com/Yiyuan7/Final-Project/blob/master/final.JPG">
- 
+ <p align="left">
+ <img  width = "600" src="https://github.com/Yiyuan7/Final-Project/blob/master/final.JPG">
+ </p>
  
  Sequece of servo movement
  
