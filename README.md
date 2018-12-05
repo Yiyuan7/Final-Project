@@ -33,30 +33,55 @@ The paper prototype demonstrates the set up and interaction of our product idea.
  * A Projector and screen(maybe) to display interaction on the phone
 
 ### Interaction Plan
- Plan A: Users will interact with the webcam for pose input and the mechanical arm will be the form of output that interacts with the phone.
- 
- Plan B: Users will interact with different types of sensor(e.g hearrate sensor, accelerometer), data will be transmitted to mechanical arm for interaction with the phone. 
- 
+
+Users will interact with the webcam for pose input and the mechanical arm will be the form of output that interacts with the phone.
+
 ### Progress 
 
-## Devide and Conquer
-# Gesture Recognition with Posenet
+Our product idea cosists of both software and hardware components. For the software part, we will leverage PoseNet, a machine learning model, to generates pose estimation and calculate the changes between poses to output an action signal to hardware. For the hardware part, we will build a robotic arm that would swipe up and down the phone for users. 
 
-# Computer-Arduino Communication with JonnyFive, Express, and Node.JS
+#### Step 1: Gesture Recognition with Posenet
 
-## Failures
+There are multiple ways to get data on gestures. When designing the product, we had to possible plans. Plan A is to get real-time data from gesture recognition machine learning models and plan B is to get data from sensors. The drawback of plan B is users need to wear sensors with wires all over the place. Thus, we decided to go with Plan A for a more seamless user experience. After some research, we found out PoseNet, which is machine learning model that returns a pose with confidence score and an array of keypoints, each with a score and position. We used the Tensorflow.js version of PoseNet so it fits into Node.js which is later used to communicate with Arduino. 
+
+The idea is to identify three physical actions that correspond to three common actions people perform on the phone, namely swipe up, down, and like. We defined three keypoints and the following mappings:
+ * Left hand up -> Swipe Up
+ * Head down -> Swipe Down
+ * Right hand up -> Like
+
+We extracted x,y coordinates of these three keypoints and calculated the difference between previous position and current posision to identify a change in gesture. 
+
+#### Step 2: Robotic Arm for Swiping 
+
+The mechanical part of the product was to build a robotic arm to swipe the phone physically. The plan was to have one servo as a "wrist" sweeping a skylus and another servo to move the skylus up and down on the phone.
+
+ * Diy stylus
+ We made our own stylus by using a cotton swap, aluminum foil paper, and water. We wrapped aluminum foil paper around the cotton swap and sticked two wires in. We then added a drop of water onto the tip of cotton swap to keep the skylus conductive.
+ 
+ video of working stylus
+ 
+ 
+ * Servo movement
+ Major challenge is to figure out the sequence of movements. We start with using servo.sweep and later figured out 
 
 
-## Plan A - Failure
- We have succesfully prototype gesture recognition using Posenet and webcam. We use nose and right wrist as two keypoints and calculate the relative position difference between current position and previous position to ouput "scroll up", "stay", and "scroll down". 
 
-## Plan B 
+#### Step 3: Computer-Arduino Communication with JonnyFive, Express, and Node.JS
+Since results from step 1 are in browser, we wanted established the connection between browser and arduino so that gesture change can be transformed to robotic
+
+#### Refining Interaction
+timing
+
+#### Failures
+Orinignally, we planned to put everything in raspberry pi 
+
 
 ### Final Product
 
-## Architecture diagram
+#### Architecture diagram
+#### State Diagram
 
-## Demo
+#### Demo
 
  
 
