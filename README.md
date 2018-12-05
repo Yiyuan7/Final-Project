@@ -55,9 +55,9 @@ We extracted x,y coordinates of these three keypoints and calculated the differe
 
 The mechanical part of the product was to build a robotic arm to swipe the phone physically. The plan was to have one servo as a "wrist" sweeping a skylus and another servo to move the skylus up and down on the phone.
 
-##### Diy stylus
+##### DIY stylus
  
- We made our own stylus by using a cotton swap, aluminum foil paper, and water. We wrapped aluminum foil paper around the cotton swap and sticked two wires in. We then added a drop of water onto the tip of cotton swap to keep the skylus conductive.
+We made our own stylus by using a cotton swap, aluminum foil paper, and water. We wrapped aluminum foil paper around the cotton swap and sticked two wires in. We then added a drop of water onto the tip of cotton swap to keep the skylus conductive.
  
  Video of working stylus
   <p align="center">
@@ -65,18 +65,27 @@ The mechanical part of the product was to build a robotic arm to swipe the phone
   </p>
 
  
-##### Servo movement
+##### Servo Movement
  
- Our major challenge is to figure out the sequence of movements. We start with using servo.sweep and later figured out the flow of movement for two servos to work together. 
+Our major challenge is to figure out the sequence of movements. We start with using servo.sweep and later figured out the flow of movement for two servos to work together. 
  
  Initial design of servo
- <p align="center">
- <img height = "400" src="https://github.com/Yiyuan7/Final-Project/blob/master/initial.jpg">
- </p>
+ 
+ <img align="left" height = "400" src="https://github.com/Yiyuan7/Final-Project/blob/master/initial.jpg">
+ 
+ 
+ Final design of servo
+ 
+ <img align="left" width = "600" src="https://github.com/Yiyuan7/Final-Project/blob/master/final.JPG">
+ 
+ 
+ Sequece of servo movement
  
 
 #### Step 3: Computer-Arduino Communication with JonnyFive, Express, and Node.JS
-Since results from step 1 are in browser, we wanted established the connection between browser and arduino so that gesture change can be transformed to robotic
+
+Since results from step 1 are in browser, we wanted established the connection between browser and arduino so that gesture change can be used to control robotic arm. Johnny-Five framework to control a servo
+
 
 #### Refining Interaction
 timing
