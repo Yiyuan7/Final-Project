@@ -38,7 +38,7 @@ The system will leverage PoseNet by Tensorflow to analyze pose data that is capt
 ## Plan B 
  
 ### Verplank Diagram 
-![Verplank](https://github.com/Yiyuan7/Final-Project/blob/master/verplank.JPG)
+![Verplank](https://github.com/Yiyuan7/Final-Project/blob/master/Verplank.jpg)
 
 
 
