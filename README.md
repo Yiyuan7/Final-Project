@@ -57,7 +57,7 @@ The mechanical part of the product was to build a robotic arm to swipe the phone
 
 #### DIY stylus
  
-We made our own stylus by using a cotton swap, aluminum foil paper, and water. We wrapped aluminum foil paper around the cotton swap and sticked two wires in. We then added a drop of water onto the tip of cotton swap to keep the skylus conductive.
+We made our own stylus by using a cotton swap, aluminum foil paper, and water. We wrapped aluminum foil paper around the cotton swab and sticked two wires in. We then added a drop of water onto the tip of cotton swab to keep the skylus conductive.
  
  Demo: working stylus
   <p align="left">
@@ -79,7 +79,7 @@ Our major challenge is to figure out the sequence of movements. We start with us
  <img  width = "600" src="https://github.com/Yiyuan7/Final-Project/blob/master/final.JPG">
  </p>
  
- Sequece of servo movement
+ Sequence of servo movement
  <p align="left">
  <img  width = "600" src="https://github.com/Yiyuan7/Final-Project/blob/master/servo.JPG">
  </p>
