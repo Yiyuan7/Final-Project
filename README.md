@@ -88,7 +88,7 @@ Since results from step 1 are in browser, we wanted to establish the connection 
 
 ##### Architecture diagram
 <p align="left">
- <img  width = "800" src="https://github.com/Yiyuan7/Final-Project/blob/master/arch.JPG">
+ <img  width = "800" src="https://github.com/Yiyuan7/Final-Project/blob/master/arch.png">
 </p>
 
 #### Refining Interaction
