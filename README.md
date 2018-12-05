@@ -59,8 +59,8 @@ The mechanical part of the product was to build a robotic arm to swipe the phone
  
 We made our own stylus by using a cotton swap, aluminum foil paper, and water. We wrapped aluminum foil paper around the cotton swap and sticked two wires in. We then added a drop of water onto the tip of cotton swap to keep the skylus conductive.
  
- Video of working stylus
-  <p align="center">
+ Demo: working stylus
+  <p align="left">
   <img height = "400" src="https://github.com/Yiyuan7/Final-Project/blob/master/stylus.gif">
   </p>
 
@@ -84,8 +84,12 @@ Our major challenge is to figure out the sequence of movements. We start with us
 
 #### Step 3: Computer-Arduino Communication with JonnyFive, Express, and Node.JS
 
-Since results from step 1 are in browser, we wanted established the connection between browser and arduino so that gesture change can be used to control robotic arm. Johnny-Five framework to control a servo
+Since results from step 1 are in browser, we wanted to establish the connection between browser and arduino so that gesture change can be used to control robotic arm. To achieve so, we used Johnny-Five framework to control Arduino with JavaScript. The overall architecture diagram is illustrated below.
 
+##### Architecture diagram
+<p align="left">
+ <img  width = "800" src="https://github.com/Yiyuan7/Final-Project/blob/master/arch.JPG">
+</p>
 
 #### Refining Interaction
 timing
@@ -96,7 +100,7 @@ Orinignally, we planned to put everything in raspberry pi
 
 ### Final Product
 
-#### Architecture diagram
+
 #### State Diagram
 
 #### Demo
