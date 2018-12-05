@@ -101,17 +101,19 @@ When we first programmed the javascript, we wrote client.js to emit signals to s
 * Originally, we planned to put everything in raspberry pi but it turned out be really slow. Thus, we decided to use computer instead.
 * It took us a while to figure out the movement of servos. In the middle of the project, we implemented a software-heavy plan which let users to play a browser based game with gestures. The plan was dissuared by the teaching team.
 * We wanted to design three actions for robotic arm, namely swipe up, swipe down, and like. We wanted to use a right thumb up for like. However, the like function works on and off. The like function is called, servo 2 will shake rapidly. We couldn't figure out the reason for this abnormal behavior in the end and decided to remove this action. 
-
-Demo: Like action  
+* Demo: Like action  
   <p align="left">
-  <img height = "400" src="https://github.com/Yiyuan7/Final-Project/blob/master/like.gif">
+  <img height = "300" src="https://github.com/Yiyuan7/Final-Project/blob/master/like.gif">
   </p>
 
 
 ### Final Product
 
-#### Demo
+#### Demo Video
+[![](http://img.youtube.com/vi/tl9ORVKfWog/0.jpg)](http://www.youtube.com/watch?v=tl9ORVKfWog "")
 
+#### Human Interaction Demo
+[![](http://img.youtube.com/vi/bykkYmpXzU0/0.jpg)](http://www.youtube.com/watch?v=bykkYmpXzU0 "")
  
 
 
