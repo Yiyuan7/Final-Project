@@ -15,11 +15,15 @@ The system will leverage PoseNet by Tensorflow to analyze gesture data that is c
 ### Paper Prototype
 
 The paper prototype demonstrates the set up and interaction of our product idea. 
-<img align="center" width="750" src="https://github.com/Yiyuan7/Final-Project/blob/master/Presentation%20Sources/IMG_6602.JPG">
+<p align="center">
+<img width="750" src="https://github.com/Yiyuan7/Final-Project/blob/master/Presentation%20Sources/IMG_6602.JPG">
+</p>
 
 
 ### Verplank Diagram 
-<img align="center" width="850" src="https://github.com/Yiyuan7/Final-Project/blob/master/Verplank.jpg">
+<p align="center">
+<img width="850" src="https://github.com/Yiyuan7/Final-Project/blob/master/Verplank.jpg">
+</p>
 
 ### Expected Parts
  * USB Webcam
