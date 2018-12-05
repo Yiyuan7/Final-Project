@@ -81,7 +81,7 @@ Our major challenge is to figure out the sequence of movements. We start with us
  
  Sequece of servo movement
  <p align="left">
- <img  width = "500" src="https://github.com/Yiyuan7/Final-Project/blob/master/servo.JPG">
+ <img  width = "600" src="https://github.com/Yiyuan7/Final-Project/blob/master/servo.JPG">
  </p>
  
 
