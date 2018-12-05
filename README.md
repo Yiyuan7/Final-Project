@@ -8,7 +8,7 @@
 
 For final project, we build a social media feed scrolling helper. With this helper system, users can scroll social media feeds using body gestures.
 
-The goal of this project is to explore the relationship between human beings and technology, especially mobile devices. People today spend too much time on their phones. Researche shows that the average person spend over 4 hours on his/her phone each day. Thus, we want to create an interactive device that let users view their phones while getting some exercises done.
+The goal of this project is to explore the relationship between human beings and technology, especially mobile devices. People today spend too much time on their phones. Reseaches show that the average person spend over 4 hours on his/her phone each day. Thus, we want to create an interactive device that lets users view their phones while getting some exercises done.
 
 The system will leverage PoseNet by Tensorflow to analyze gesture data that is captured by a webcam. The pose data is then used to control a mechanical arm, which interacts with the phone accordingly. For example, if user put his/her arms up, the mechanical arm will scroll up the social media feed.
 
@@ -38,7 +38,7 @@ Users will interact with the webcam for pose input and the mechanical arm will b
 
 ### Progress 
 
-Our product idea cosists of both software and hardware components. For the software part, we will leverage PoseNet, a machine learning model, to generates pose estimation and calculate the changes between poses to output an action signal to hardware. For the hardware part, we will build a robotic arm that would swipe up and down the phone for users. 
+Our product idea consists of both software and hardware components. For the software part, we will take advantage of PoseNet, a machine learning model, to generates pose estimation and calculate the changes between poses to output an action signal to hardware. For the hardware part, we will build a robotic arm that would swipe up and down the phone for users. 
 
 #### Step 1: Gesture Recognition with Posenet
 
@@ -80,6 +80,9 @@ Our major challenge is to figure out the sequence of movements. We start with us
  </p>
  
  Sequece of servo movement
+ <p align="left">
+ <img  width = "500" src="https://github.com/Yiyuan7/Final-Project/blob/master/servos.JPG">
+ </p>
  
 
 #### Step 3: Computer-Arduino Communication with JonnyFive, Express, and Node.JS
