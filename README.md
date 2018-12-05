@@ -55,7 +55,7 @@ We extracted x,y coordinates of these three keypoints and calculated the differe
 
 The mechanical part of the product was to build a robotic arm to swipe the phone physically. The plan was to have one servo as a "wrist" sweeping a skylus and another servo to move the skylus up and down on the phone.
 
-##### DIY stylus
+#### DIY stylus
  
 We made our own stylus by using a cotton swap, aluminum foil paper, and water. We wrapped aluminum foil paper around the cotton swap and sticked two wires in. We then added a drop of water onto the tip of cotton swap to keep the skylus conductive.
  
@@ -65,7 +65,7 @@ We made our own stylus by using a cotton swap, aluminum foil paper, and water. W
   </p>
 
  
-##### Servo Movement
+#### Servo Movement
  
 Our major challenge is to figure out the sequence of movements. We start with using servo.sweep and later figured out the flow of movement for two servos to work together. 
  
@@ -86,22 +86,29 @@ Our major challenge is to figure out the sequence of movements. We start with us
 
 Since results from step 1 are in browser, we wanted to establish the connection between browser and arduino so that gesture change can be used to control robotic arm. To achieve so, we used Johnny-Five framework to control Arduino with JavaScript. The overall architecture diagram is illustrated below.
 
-##### Architecture diagram
+#### Architecture diagram
 <p align="left">
  <img  width = "800" src="https://github.com/Yiyuan7/Final-Project/blob/master/arch.png">
 </p>
 
-#### Refining Interaction
-timing
+
+#### Step 4: Refining Interaction
+
+When we first programmed the javascript, we wrote client.js to emit signals to server.js to trigger servo movement as soon as a gesture movement is detected. This created a problem for servos. If users move quickly and keep moving in a short amount of time, servos would not have enought time to complete the whole sequence of movement. Thus, we added a time counter in the program to tell Arduino that it only needs to execute one action in every 30s. We also adjusted how long each servo complete one action and calibrated the position of servos to make sure the swiping action goes well. 
+
 
 #### Failures
-Orinignally, we planned to put everything in raspberry pi 
+* Originally, we planned to put everything in raspberry pi but it turned out be really slow. Thus, we decided to use computer instead.
+* It took us a while to figure out the movement of servos. In the middle of the project, we implemented a software-heavy plan which let users to play a browser based game with gestures. The plan was dissuared by the teaching team.
+* We wanted to design three actions for robotic arm, namely swipe up, swipe down, and like. We wanted to use a right thumb up for like. However, the like function works on and off. The like function is called, servo 2 will shake rapidly. We couldn't figure out the reason for this abnormal behavior in the end and decided to remove this action. 
+
+Demo: Like action  
+  <p align="left">
+  <img height = "400" src="https://github.com/Yiyuan7/Final-Project/blob/master/like.gif">
+  </p>
 
 
 ### Final Product
-
-
-#### State Diagram
 
 #### Demo
 
