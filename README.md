@@ -1,8 +1,6 @@
-# Final-Project
+# Final-Project: Scroll Master
 
 
-
-## Scroll Master
 
 ### Team: Hanyu Zhang, Yiyuan Feng
 
